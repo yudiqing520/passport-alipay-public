@@ -1,0 +1,30 @@
+{
+  "name": "passport-alipay-public",
+  "version": "0.0.4",
+  "description": "for auth",
+  "main": "lib/index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/yudiqing520/passport-alipay-public.git"
+  },
+  "keywords": [
+    "passport",
+    "alipay",
+    "public"
+  ],
+  "author": "yushuai",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/yudiqing520/passport-alipay-public/issues"
+  },
+  "homepage": "https://github.com/yudiqing520/passport-alipay-public#readme",
+  "dependencies": {
+    "alipay-sdk": "^3.0.4",
+    "passport": "^0.4.0",
+	"passport-strategy": "^1.0.0",
+	"util": "^0.11.1"
+  }
+}
