@@ -26,8 +26,8 @@ Passport strategy for authenticating with Alipay
     callbackURL: 'http://www.example.com/authCallBack',
     passReqToCallback: true,
     },function (req, accessToken, refreshToken, profile, done) {
-	//写一些数据库插入语句或者其他..
-	//不一定返回profile,可以自己创建对象返回
+	// 写一些数据库插入语句或者其他..
+	// 不一定返回profile,可以自己创建对象返回
     done(null,profile);
     }))
 

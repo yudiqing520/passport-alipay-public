@@ -1,6 +1,6 @@
 {
   "name": "passport-alipay-public",
-  "version": "0.0.4",
+  "version": "0.0.5",
   "description": "for auth",
   "main": "lib/index.js",
   "scripts": {
